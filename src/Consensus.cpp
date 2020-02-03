@@ -2,7 +2,7 @@
 
 /* HP: Number of robots=3 ; Communication graph is complete(3 robots are all communicating with each other):
 
-				                        2
+				2
                                / \
                               /   \
                              /     \
