@@ -1,4 +1,4 @@
-// Esercizio 1(anno accademico 2017/2018) :  Workspace limits avoidance        Fabio D'Onofrio 556505
+// Ex. 1 :  Workspace limits avoidance
 
 #include "ros/ros.h"
 #include "geometry_msgs/Twist.h"
