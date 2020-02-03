@@ -1,4 +1,4 @@
-// Esercizio 6(anno accademico 2017/2018) : Formation             Fabio D'Onofrio 556505
+// Ex. 6 : Formation   
 
 /*   Formation choosen in this example is set by formation graph (a possible desired configuration in parenthesis):
   
