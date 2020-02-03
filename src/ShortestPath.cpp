@@ -1,4 +1,4 @@
-// Esercizio 5(anno accademico 2017/2018) : Shortest Path              Fabio D'Onofrio 556505
+// Ex. 5 : Shortest Path      
 
 /*
       
