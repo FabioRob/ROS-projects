@@ -1,4 +1,4 @@
-// Esercizio 3(anno accademico 2017/2018) : Consensus              Fabio D'Onofrio 556505
+// Ex. 3 : Consensus          
 
 /* HP: Number of robots=3 ; Communication graph is complete(3 robots are all communicating with each other):
 
