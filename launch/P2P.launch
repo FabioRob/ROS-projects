@@ -1,0 +1,18 @@
+
+<!-- LAUNCH FILE FOR EXERCISE 2: launch turtesim_node and point2point_node -->
+
+<launch>
+  
+  <arg name="x" default="8.0" />
+  <param name="x" value="$(arg x)"/>
+  
+  <arg name="y" default="8.0" />
+  <param name="y" value="$(arg y)"/>
+  
+  <node name="p2p" pkg="ros_ex" type="point2point" args="$(arg x) $(arg y) " output="screen" />
+  
+  <node name="turtle" pkg="turtlesim" type="turtlesim_node" />
+  
+  <!-- <node name="plot" pkg="rqt_plot" type="rqt_plot" args="/pos_err" /> -->
+  
+</launch>

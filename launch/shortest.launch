@@ -1,0 +1,17 @@
+<launch>
+  <node name="short_robot_1" pkg="ros_ex" type="shortest_path" output="screen">
+    <param name="robot_name" value="turtle1"/>
+  </node>
+  
+  <node name="short_robot_2" pkg="ros_ex" type="shortest_path" output="screen" >
+    <param name="robot_name" value="turtle2"/>
+  </node>
+  
+  <node name="short_robot_3" pkg="ros_ex" type="shortest_path" output="screen" >
+    <param name="robot_name" value="turtle3"/>
+  </node> 
+  
+  <node name="short_robot_4" pkg="ros_ex" type="shortest_path" output="screen" >
+    <param name="robot_name" value="turtle4"/>
+  </node>
+ </launch>

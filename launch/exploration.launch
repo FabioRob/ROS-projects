@@ -1,0 +1,15 @@
+<launch>
+  <node name="explr_robot_1" pkg="ros_ex" type="exploration" output="screen">
+    <param name="robot_name" value="turtle1"/>
+  </node>
+  
+  <node name="explr_robot_2" pkg="ros_ex" type="exploration" output="screen" >
+    <param name="robot_name" value="turtle2"/>
+  </node>
+  
+  <node name="explr_robot_3" pkg="ros_ex" type="exploration" output="screen" >
+    <param name="robot_name" value="turtle3"/>
+  </node> 
+  
+  
+ </launch>

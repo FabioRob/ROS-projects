@@ -1,0 +1,24 @@
+
+<launch>
+  <node name="form_robot_1" pkg="ros_ex" type="formation" output="screen">
+    <param name="robot_name" value="turtle1"/>
+  </node>
+  
+  <node name="form_robot_2" pkg="ros_ex" type="formation" output="screen" >
+    <param name="robot_name" value="turtle2"/>
+  </node>
+  
+  <node name="form_robot_3" pkg="ros_ex" type="formation" output="screen" >
+    <param name="robot_name" value="turtle3"/>
+  </node> 
+  
+  <node name="form_robot_4" pkg="ros_ex" type="formation" output="screen" >
+    <param name="robot_name" value="turtle4"/>
+  </node>
+  
+  <node name="form_robot_5" pkg="ros_ex" type="formation" output="screen" >
+    <param name="robot_name" value="turtle5"/>
+  </node> 
+  
+  
+ </launch>

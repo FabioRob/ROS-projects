@@ -1,0 +1,10 @@
+
+<launch>
+
+  <node name="sim" pkg="turtlesim" type="turtlesim_node"/>
+  
+  <node pkg="rosservice" type="rosservice" name="create_turtle2" args='call --wait /spawn "{x: 2.0,y: 3.0, theta: 4.0, name: turtle2}" '/>
+  
+  <node pkg="rosservice" type="rosservice" name="create_turtle3" args='call --wait /spawn "{x: 8.0,y: 4.0, theta: 2.0, name: turtle3}" '/>
+  
+</launch>
