@@ -1,4 +1,4 @@
-// Esercizio 2(anno accademico 2017/2018) : Point to point control        Fabio D'Onofrio 556505
+// Ex. 2 : Point to point control      
 
 #include "ros/ros.h"
 #include "turtlesim/Pose.h"
