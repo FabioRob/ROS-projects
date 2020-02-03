@@ -1,4 +1,4 @@
-// Esercizio 4(anno accademico 2017/2018) : Exploration                Fabio D'Onofrio 556505
+// Ex.4 : Exploration                
 
 #include "ros/ros.h"
 #include "geometry_msgs/Twist.h"
